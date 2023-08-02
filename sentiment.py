@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/path/to/textblob")
 import streamlit as st
 from textblob import TextBlob
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer

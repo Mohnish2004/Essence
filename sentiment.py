@@ -58,15 +58,12 @@ def analysis():
         if polarity > 0.1:
             sentiment_label = "Positive 😀"
             sentiment_color = "#2ecc71"
-            rain(emoji="🎈", font_size=54, falling_speed=5, animation_length="10")
         elif polarity < -0.1:
             sentiment_label = "Negative 😔"
             sentiment_color = "#e74c3c"
-            rain(emoji="💩", font_size=54, falling_speed=5, animation_length="10")
         else:
             sentiment_label = "Neutral 😐"
             sentiment_color = "#f39c12"
-            rain(emoji="❓", font_size=54, falling_speed=5, animation_length="10")
 
         annotated_text(sentiment_label)
 

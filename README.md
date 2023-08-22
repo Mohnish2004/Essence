@@ -1,7 +1,6 @@
 # Essence
 
-
-![855shots_so](https://github.com/Mohnish2004/Essence/assets/81405395/e8cc5e50-f839-4325-a213-34b0214f101c)![855shots_so](https://github.com/Mohnish2004/Essence/assets/81405395/6832ab88-a257-48e5-96ae-c241851ee062)
+![855shots_so](https://github.com/Mohnish2004/Essence/assets/81405395/e8cc5e50-f839-4325-a213-34b0214f101c)
 
 
 # Tech Stack
@@ -10,7 +9,8 @@
 ![Matplotlib](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Vader](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
 ![Textblob](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Streamlit](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)
+
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)

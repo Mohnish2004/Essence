@@ -4,46 +4,79 @@
 
 
 # Tech Stack
-
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Vader](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
-![Textblob](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)
+Python, Streamlit, TextBlob, VADER Sentiment, Matplotlib Git 
 
 
-# What is ![Logo (9)](https://github.com/Mohnish2004/EnigmaCoin/assets/81405395/127507b1-1420-4782-83d5-62afd84f1717) Enigma Coin ?
+# What is Essence ?
 
-Enigma Coin is a blockchain-based cryptocurrency project developed from scratch using Python. The aim of this project was to explore the application of RSA encryption in blockchain technology. We created our own blockchain with RSA encryption and implemented various functionalities like mining, transactions, and coin buying. In addition, we developed a web platform to showcase the functioning of the Enigma Coin.
-
-The Final PRESENTATION. - [enigma coin.pdf](https://github.com/Mohnish2004/EnigmaCoin/files/11644953/enigma.coin.pdf)
+Essence is an advanced sentiment analysis NLP app built with Streamlit. It provides insights into text sentiment, performs token-level sentiment analysis, and generates a word cloud for English text. Experience the power of natural language processing with Essence!
 
 
 # Demo
 
 
 
-https://github.com/Mohnish2004/EnigmaCoin/assets/81405395/ef2964eb-848f-4e56-a7d3-4df4e0cb4fac
+https://github.com/Mohnish2004/Essence/assets/81405395/88e3fb34-93d8-4e6a-b198-a1ef719cb3d3
 
 
+# Features
+
+### 1. Sentiment Analysis
+Uncover the sentiment behind your text and gain valuable insights. Enter the text you want to analyze, and Essence will reveal the emotions within. The app uses both the TextBlob and VaderSentiment libraries to provide sentiment scores and labels.
+
+### 2. Sentiment Annotations
+Experience the sentiment of each word in your text. Essence provides a visually annotated representation of your text, highlighting positive, negative, and neutral words with distinct colors.
+
+### 3. Token Sentiment Analysis
+Delve deeper into token-level sentiment analysis. Essence can break down your text into individual words and analyze their sentiment scores. You'll get a breakdown of positive, negative, and neutral tokens.
+
+### 4. Word Cloud Generation
+Visualize the most frequent words in your text using a word cloud. Essence generates stunning word clouds to help you understand the prominent themes and topics in your text data. The word cloud feature is available for English text.
 
 
-# How to Run Locally
+<img width="1440" alt="Screenshot 2023-08-01 at 6 34 34 PM" src="https://github.com/Mohnish2004/Essence/assets/81405395/32467758-7871-4a16-a5af-ced2a67b05d6">
+
+# New Ideas for Future Updates
+
+We're constantly looking to improve Essence and enhance its capabilities. Here are some ideas for future updates:
+
+### 1. Multilingual Support
+Extend the word cloud feature to support multiple languages, allowing users to generate word clouds for text in various languages.
+
+### 2. Customizable Visualizations
+Give users the ability to customize the appearance of sentiment annotations, word clouds, and other visualizations according to their preferences.
+
+### 3. Entity Recognition
+Incorporate named entity recognition to identify and highlight entities such as names, places, organizations, and more in the text.
+
+### 4. Advanced Language Detection
+Enhance the language detection algorithm to accurately identify the language of the text, enabling better support for various languages.
+
+### 5. User Accounts and Text History
+Implement user accounts to allow users to save and revisit their analyzed texts, creating a history of analyzed content.
+
+### 6. Sentiment Trends
+Provide users with insights into sentiment trends over time, enabling them to track changes in sentiment for specific texts or topics.
+
+### 7. Integration with Data Sources
+Enable users to import text data from various sources such as social media platforms, documents, and more for seamless analysis.
+
+
+![371shots_so](https://github.com/Mohnish2004/Essence/assets/81405395/4b09c886-7090-4adc-91e3-9125ba693425)
+
+
+# Getting Started
 
 ### Clone the project
 
 ```bash
-  git clone https://github.com/Mohnish2004/EnigmaCoin.git
+  git clone 
 ```
 
 ### Go to the project directory
 
 ```bash
-  cd EnigmaCoin
+  cd Essence
 ```
 
 ### Install dependencies
@@ -55,54 +88,13 @@ https://github.com/Mohnish2004/EnigmaCoin/assets/81405395/ef2964eb-848f-4e56-a7d
 ### Start the local host
 
 ```bash
-  python3 run.py
+  streamlit run sentiment.py
 ```
 
+Feel free to contribute, suggest improvements, or report issues by opening an issue or pull request in the repository.
 
-
-# Features
-### Currently functioning:
-
-- ** Mining:** Users can participate in the mining process to validate transactions and earn Enigma Coins.
-- **Transactions:** Users can create and verify transactions between different wallets.
-- **Coin Buying:** Users can buy Enigma Coins using supported cryptocurrencies or fiat currencies.
-- **Web Platform:** A web-based platform to view the functioning of Enigma Coin, including real-time mining updates, transaction history, and wallet balances.
-
-
-
-# Lessons Learned
-
-### Throughout the development of this project, we learned the following:
-
-- Understanding the concepts and implementation of RSA encryption in blockchain technology.
-- Creating a blockchain from scratch using Python.
-- Implementing mining algorithms and verifying transactions within the blockchain.
-- Developing a web platform to interact with the Enigma Coin blockchain.
-
-
-
-# Optimizations
-
-### During the development of this project, we made the following optimizations:
-
-- Refactoring the codebase to improve readability and maintainability.
-- Implementing performance improvements to enhance the efficiency of mining and transaction verification processes.
-- Ensuring accessibility by adhering to web accessibility standards and guidelines.
-
-
-
-# Roadmap
-### Our Future plans include
-
-- [ ] **Website enhancements:** Improve the Enigma Coin website with new features, such as real-time data visualization, user-friendly interface, and educational resources about Enigma Coin and blockchain technology.
-- [ ] **Add more integrations:** Integrate Enigma Coin with popular wallets and exchanges for broader usability and adoption.
-- [ ] **Mobile application development:** Create a mobile app for Enigma Coin to expand its reach to mobile users.
-- [ ] **Smart contract functionality:** Implement smart contract capabilities to enable more complex decentralizes transactions on the Enigma Coin blockchain.
-- [ ] **Security audits and enhancements:** Conduct thorough security audits of the Enigma Coin blockchain and implement any necessary security enhancements to ensure robustness and protect against potential vulnerabilities.
-- [ ] **Establish peer-to-peer network:** Develop a peer-to-peer network infrastructure to enhance the decentralized nature of Enigma Coin and enable direct communication between nodes.
-- [ ] **Coin publication:** Launch and promote Enigma Coin to the wider cryptocurrency community, aiming for adoption and trading on multiple exchanges.
-- [ ] **Community engagement and education:** Foster a strong community around Enigma Coin through engagement activities, educational resources, and developer documentation to encourage participation, awareness, and growth within the Enigma Coin ecosystem.
-
+Let's uncover the emotions within the words together with Essence! 📊🔍📝
+<img width="1440" alt="Screenshot 2023-08-01 at 6 33 18 PM" src="https://github.com/Mohnish2004/Essence/assets/81405395/56f24baa-cd14-433b-bbd8-5ae8ce72d1a0">
 
 # License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -112,7 +104,3 @@ https://github.com/Mohnish2004/EnigmaCoin/assets/81405395/ef2964eb-848f-4e56-a7d
 
 Contributions are always welcome!
 Please adhere to this project's `code of conduct`.
-
-
-# This project is made for
-![enigma coin
